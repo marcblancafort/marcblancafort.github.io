@@ -7,7 +7,14 @@
 </head>
 
 <body>
-    <button type="button">Click Me!</button>
+    <button onblick="myFunction()">Click Me!</button>
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello World";
+        }
+    </script>
 
 <header>
 
