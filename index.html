@@ -1,34 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Marc Blancafort</title>
-
-
-</head>
-
 <body>
-    <button onblick="myFunction()">Click Me!</button>
-    <p id="demo"></p>
 
-    <script>
-        function myFunction() {
-            document.getElementById("demo").innerHTML = "Hello World";
-        }
-    </script>
+<h1>HTML DOM Events</h1>
+<h2>The onclick Event</h2>
 
-<header>
+<p>The onclick event triggers a function when an element is clicked on.</p>
+<p>Click to trigger a function that will output "Hello World":</p>
 
-    <div class="container">
-        <img src="images/pestanya.JPG" alt="logo" class="logo" width="150" height="100">
+<button onclick="myFunction()">Click me</button>
 
+<p id="demo"></p>
 
-    </div>
-
-
-
-</header>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
 
 </body>
-
-
-
+</html>
