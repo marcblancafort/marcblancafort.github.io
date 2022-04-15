@@ -22,12 +22,7 @@ nav ul li {
   position: relative;
 }
 
-.foto {
-  position: absolute;
-  width: 80px;
-  left: -60px;
-  bottom: 16px;
-}
+
 
 nav ul li a {
   display: block;
