@@ -9,3 +9,7 @@
 .navbar-toggler {
     border:0px;
 }
+
+.about-custom {
+    background-color: rgb(255, 192, 203, 0.5);
+}
