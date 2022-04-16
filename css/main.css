@@ -5,3 +5,7 @@
 .navbar-custom {
     background-color: aquamarine;
 }
+
+.navbar-toggler {
+    border:0px;
+}
