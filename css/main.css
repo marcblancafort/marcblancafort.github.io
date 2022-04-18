@@ -22,12 +22,12 @@
 .roadmap-custom {
 
     background-color: rgba(192, 255, 236, 0.5);
-    background-color: green;
+    background-color: red;
 
 }
 
 .team-custom {
-    background-color: red;
+    background-color: rgb(0, 128, 0, 0.5);
 }
 
 .faq-custom {
@@ -38,3 +38,7 @@
     transform: scale(5)
 }
 
+
+.icon-social-twitter, .icon-social-instagram {
+    color: black;
+}
