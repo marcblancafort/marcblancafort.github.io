@@ -14,13 +14,20 @@
     border:0px;
 }
 
-.about-custom {
+.about-custom {   
+
     background-color: rgb(255, 192, 203, 0.5);
 }
 
 .roadmap-custom {
+
     background-color: rgba(192, 255, 236, 0.5);
 
+}
+
+.team-custom {
+
+    background-color: red;
 }
 
 #disc {
