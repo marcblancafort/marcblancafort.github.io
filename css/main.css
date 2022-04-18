@@ -22,12 +22,16 @@
 .roadmap-custom {
 
     background-color: rgba(192, 255, 236, 0.5);
+    background-color: green;
 
 }
 
 .team-custom {
-
     background-color: red;
+}
+
+.faq-custom {
+    background-color: blue;
 }
 
 #disc {
