@@ -1,4 +1,8 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
 #icons a {
     font-size: 18px;
 }
