@@ -3,12 +3,22 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+body {
+    font-family: 'Borsok';
+}
+
+
+
+
 #icons a {
     font-size: 18px;
 }
 
 
 .navbar-custom {
+    font-family: 'Borsok', sans-serif;
     background-color: aquamarine;
     background-color: rgba(192, 255, 236, 0.5);
     background-color: #FFE991;
@@ -20,17 +30,19 @@ html {
 }
 
 .about-custom {   
-
+    font-family: 'Borsok', sans-serif;
     background-color: rgb(255, 192, 203, 0.5);
     background-color: #FFFFB3;
 }
 
 
 .roadmap-custom {
+    font-family: 'Borsok', sans-serif;
     background-color: #99FFCD;
 }
 
 .faq-custom {
+    font-family: 'Borsok', sans-serif;
     background-color: blue;
 }
 
@@ -43,6 +55,10 @@ html {
     color: black;
 }
 
+.team-custom {
+    font-family: 'Borsok', sans-serif;
+
+}
 
 .faq_area {
     position: relative;
@@ -218,13 +234,12 @@ html {
 }
 .main-timeline .title{
     font-size: 20px;
-    font-weight: bold;
-    color: #fff;
+    color: black;
     margin: 0 0 10px 0;
 }
 .main-timeline .description{
-    font-size: 16px;
-    color: #fff;
+    font-size: 18px;
+    color: black;
     line-height: 24px;
     margin: 0;
 }
