@@ -44,6 +44,10 @@ body {
     color: white;
 }
 
+.about-custom > div > div > p {
+    font-size: 25px;
+}
+
 #linea {
     border-top: 5px dotted white;
 }
@@ -143,6 +147,11 @@ body {
     .support-button p {
         font-size: 14px;
     }
+
+    .about-custom > div > div > p {
+        font-size: 18px;
+    }
+
 }
 
 .support-button i {
