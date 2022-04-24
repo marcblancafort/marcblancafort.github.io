@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+
+
 
 html {
     scroll-behavior: smooth;
@@ -8,30 +11,53 @@ html {
 }
 
 
+
 .navbar-custom {
     background-color: aquamarine;
     background-color: rgba(192, 255, 236, 0.5);
     background-color: #FFE991;
+    background-color: grey;
 
 }
+
 
 .navbar-toggler {
     border:0px;
 }
 
 .about-custom {   
+    font-family: 'Josefin Sans', sans-serif;
 
     background-color: rgb(255, 192, 203, 0.5);
     background-color: #FFFFB3;
+    background-color: black;
+    color: white;
 }
 
+#linea {
+    border-top: 5px dotted white;
+}
 
 .roadmap-custom {
+    font-family: 'Josefin Sans', sans-serif;
+
     background-color: #99FFCD;
+    background-color: black;
+    color: black;
+}
+
+.team-custom {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+    color: white;
 }
 
 .faq-custom {
+    font-family: 'Josefin Sans', sans-serif;
+
     background-color: blue;
+    background-color: black;
+    color: white;
 }
 
 #disc {
@@ -140,7 +166,7 @@ html {
 }
 .main-timeline .timeline{
     position: relative;
-    margin-top: -81px;
+    margin-top: -138px;
 }
 .main-timeline .timeline:first-child{ margin-top: 0; }
 .main-timeline .timeline:before,
@@ -167,6 +193,8 @@ html {
     border: 25px solid transparent;
     border-top-color: #f44556;
     border-right-color: #f44556;
+    border-top-color: white;
+    border-right-color: white;
     margin: auto;
     position: absolute;
     top: 0;
@@ -188,6 +216,8 @@ html {
     font-size: 30px;
     font-weight: bold;
     color: #f44556;
+    color: black;
+
     text-align: center;
     position: absolute;
     top: 0;
@@ -200,6 +230,7 @@ html {
     width: 35%;
     float: right;
     background: #f44556;
+    background: white;
     padding: 30px 20px;
     margin: 50px 0;
     z-index: 1;
@@ -209,7 +240,7 @@ html {
     content: "";
     width: 20%;
     height: 15px;
-    background: #f44556;
+    background: white;
     position: absolute;
     top: 50%;
     left: -20%;
@@ -217,14 +248,14 @@ html {
     transform: translateY(-50%);
 }
 .main-timeline .title{
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
-    color: #fff;
+    color: black;
     margin: 0 0 10px 0;
 }
 .main-timeline .description{
-    font-size: 16px;
-    color: #fff;
+    font-size: 25px;
+    color: black;
     line-height: 24px;
     margin: 0;
 }
@@ -239,17 +270,22 @@ html {
 .main-timeline .timeline:nth-child(2n) .timeline-icon{
     border-top-color: #e97e2e;
     border-right-color: #e97e2e;
+    border-top-color: white;
+    border-right-color: white;
+
 }
-.main-timeline .timeline:nth-child(2n) .year{ color: #e97e2e; }
+.main-timeline .timeline:nth-child(2n) .year{ color: black; }
 .main-timeline .timeline:nth-child(2n) .timeline-content,
-.main-timeline .timeline:nth-child(2n) .timeline-content:before{ background: #e97e2e; }
+.main-timeline .timeline:nth-child(2n) .timeline-content:before{ background: white; }
 .main-timeline .timeline:nth-child(3n) .timeline-icon{
     border-top-color: #13afae;
     border-right-color: #13afae;
+    border-top-color: white;
+    border-right-color: white;
 }
-.main-timeline .timeline:nth-child(3n) .year{ color: #13afae; }
+.main-timeline .timeline:nth-child(3n) .year{ color: black; }
 .main-timeline .timeline:nth-child(3n) .timeline-content,
-.main-timeline .timeline:nth-child(3n) .timeline-content:before{ background: #13afae; }
+.main-timeline .timeline:nth-child(3n) .timeline-content:before{ background: white; }
 .main-timeline .timeline:nth-child(4n) .timeline-icon{
     border-top-color: #105572;
     border-right-color: #105572;
