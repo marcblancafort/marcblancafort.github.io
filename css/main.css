@@ -6,6 +6,15 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+body {
+    font-family: 'Borsok';
+}
+
+
+
+
 #icons a {
     font-size: 18px;
 }
@@ -13,6 +22,7 @@ html {
 
 
 .navbar-custom {
+    font-family: 'Borsok', sans-serif;
     background-color: aquamarine;
     background-color: rgba(192, 255, 236, 0.5);
     background-color: #FFE991;
@@ -69,6 +79,10 @@ html {
     color: black;
 }
 
+.team-custom {
+    font-family: 'Borsok', sans-serif;
+
+}
 
 .faq_area {
     position: relative;
